@@ -16,6 +16,12 @@ public:
     string gender;
     int yearOfBirth;
 };
+class Passenger{
+public:
+    string name;
+    int dob;
+    int seat;
+};
 struct node{
     double data;
     node *link;
